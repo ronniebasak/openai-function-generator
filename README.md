@@ -5,7 +5,7 @@ This project provides a tool to generate JSON schema definitions for OpenAI func
 ## Installation
 
 ```bash
-pip install openai-function-generator
+pip install openai-tool-generator
 ```
 
 ## Usage

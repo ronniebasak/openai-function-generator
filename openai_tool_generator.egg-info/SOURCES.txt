@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+openai_tool_generator/__init__.py
+openai_tool_generator/generate_tool_definition.py
+openai_tool_generator.egg-info/PKG-INFO
+openai_tool_generator.egg-info/SOURCES.txt
+openai_tool_generator.egg-info/dependency_links.txt
+openai_tool_generator.egg-info/entry_points.txt
+openai_tool_generator.egg-info/top_level.txt
+tests/test_generate_tool_definition.py

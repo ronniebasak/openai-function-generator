@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: openai-tool-generator
+Version: 0.1.0
+Summary: Generate OpenAI Compatible tool definitions by parsing Python functions
+Home-page: https://github.com/ronniebasak/openai-function-generator
+Author: Sohan Basak
+Author-email: ronnie.basak96@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenAI Function Generator
+
+This project provides a tool to generate JSON schema definitions for OpenAI functions.
+
+## Installation
+
+```bash
+pip install openai-function-generator
+```
+
+## Usage
+
+```python
+from openai_tool_generator.generate_tool_definition import generate_tool_definition
+
+def sample_func(a: int, b: Optional[str] = "default", c: List[float] = [1.0, 2.0]) -> None:
+    """
+    Sample function for testing
+    """
+    pass
+
+definition = generate_tool_definition(sample_func)
+print(definition)
+```

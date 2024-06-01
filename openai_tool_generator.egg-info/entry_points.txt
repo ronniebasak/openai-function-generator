@@ -1,0 +1,2 @@
+[console_scripts]
+generate_tool_definition = your_module.generate_tool_definition:main
