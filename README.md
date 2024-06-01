@@ -12,6 +12,7 @@ pip install openai-tool-generator
 
 ```python
 from openai_tool_generator.generate_tool_definition import generate_tool_definition
+import json
 
 def sample_func(a: int, b: Optional[str] = "default", c: List[float] = [1.0, 2.0]) -> None:
     """
@@ -20,5 +21,5 @@ def sample_func(a: int, b: Optional[str] = "default", c: List[float] = [1.0, 2.0
     pass
 
 definition = generate_tool_definition(sample_func)
-print(definition)
+print(json.dumps(definition))
 ```
