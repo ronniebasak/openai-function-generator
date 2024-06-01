@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: openai-tool-generator
-Version: 0.1.0
+Version: 0.2.0
 Summary: Generate OpenAI Compatible tool definitions by parsing Python functions
 Home-page: https://github.com/ronniebasak/openai-function-generator
 Author: Sohan Basak
@@ -19,7 +19,7 @@ This project provides a tool to generate JSON schema definitions for OpenAI func
 ## Installation
 
 ```bash
-pip install openai-function-generator
+pip install openai-tool-generator
 ```
 
 ## Usage
